@@ -1,10 +1,11 @@
-from sys import maxsize as max_integer
+#from sys import maxsize as max_integer
 
 from spine.animation.animation cimport binary_search1
 from spine.animation.timeline cimport Timeline
 from spine.attachment.attachment cimport Attachment
 from spine.skeleton.skeleton cimport Skeleton
 
+max_integer = 2147483647
 cdef long MAX_INTEGER = max_integer
 
 
