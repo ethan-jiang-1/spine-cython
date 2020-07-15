@@ -5,7 +5,7 @@ from spine.animation.timeline cimport Timeline
 from spine.attachment.attachment cimport Attachment
 from spine.skeleton.skeleton cimport Skeleton
 
-cdef long MAX_INTEGER = max_integer
+cdef long MAX_INTEGER = 2147483647
 
 
 cdef class AttachmentTimeline(Timeline):
